@@ -1,0 +1,10 @@
+.table-container {
+    overflow-x: auto; /* Enables horizontal scrolling for tables on small screens */
+    padding: 1rem;
+}
+
+@media (max-width: 767px) {
+    .table-container {
+        padding: 0.5rem;
+    }
+}

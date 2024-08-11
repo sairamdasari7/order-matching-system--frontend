@@ -1,0 +1,11 @@
+.order-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+@media (max-width: 767px) {
+    .order-form {
+        padding: 0.5rem;
+    }
+}
